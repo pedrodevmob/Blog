@@ -1,0 +1,84 @@
+body {
+    background-color:rgba(0, 0, 0, 0.027);
+}
+/*Estilo do Header*/
+#principal{
+    margin: 10px auto;
+    height: 80px;
+    width: 750px;
+}
+#logo{
+    float: left;
+    padding-left: 20px ;
+}
+span {
+    color: red;
+}
+#info {
+    float: right;
+    padding: 30px;
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: underline red;
+}
+a:active{
+    color: red;
+}
+/*Fim do estilo Header*/
+
+/*Estilo das Postagens*/
+.postagem {
+    margin: 20px auto;
+    width: 750px;
+    background-color: rgba(0, 0, 0, 0.048);
+}
+.titulo {
+    font-family: monospace;
+}
+.postImg {
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+p {
+    text-align: justify ;
+}
+/*Fim do estilo das Postagens*/
+
+/*Estilo do Footer*/
+#footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.048);
+}
+#footer_info {
+    float: left;
+    padding: 10px 0px 0px 150px;
+}
+a.footer_li {
+    font-family: monospace;
+    font-size: 13px;
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+    width: 150px;
+    height: 50px;
+}
+#social {
+    padding: 41px 0px 0px 750px;
+    font-size: 13px;
+    font-family: monospace;
+}
+.footer_Img {
+    width: 45px;
+}
